@@ -1,0 +1,73 @@
+*{
+  background: #0f0c29;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.landing-container {
+    height: 100vh; /* Set height to cover entire viewport */
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-image: url('../assets/backg.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+  
+.landing-heading {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+  
+.landing-text {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+  
+.landing-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px; /* Optionally set a width for the form */
+}
+  
+.landing-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+  
+.landing-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+  
+.landing-button:hover {
+    background-color: #0056b3;
+}
+  
+.landing-link {
+    margin-top: 20px;
+    font-size: 1rem;
+}
+  
+.landing-link a {
+    color: #007bff;
+    text-decoration: none;
+}
+  
+.landing-link a:hover {
+    text-decoration: underline;
+}
